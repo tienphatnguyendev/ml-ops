@@ -74,7 +74,7 @@ celerybeat.pid
 .env
 .venv
 env/
-venv/
+venv-mlops/
 ENV/
 env.bak/
 venv.bak/
