@@ -12,7 +12,7 @@ sns.set_palette(sns.color_palette(colors))
 
 
 class NumericVisualizer(DataVisualizer):
-    def plot_distribution(self, cols, bins=10, figsize=(20, 15), cols_per_row=3):
+    def plot(self, cols, bins=10, figsize=(20, 5), cols_per_row=3):
         """
         Plots distribution plots for specified numeric columns of a DataFrame.
 

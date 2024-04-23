@@ -59,4 +59,4 @@ categorical_visualizer = CategoricalVisualizer(df)
 
 # Plot distributions
 # numeric_visualizer.plot_distribution(numeric_cols)
-categorical_visualizer.plot_distribution(cat_cols)
+categorical_visualizer.plot(cat_cols)

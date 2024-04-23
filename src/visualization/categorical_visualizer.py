@@ -12,7 +12,7 @@ sns.set_palette(sns.color_palette(colors))
 
 
 class CategoricalVisualizer(DataVisualizer):
-    def plot_distribution(self, cols, figsize=(20, 15), cols_per_row=3):
+    def plot(self, cols, figsize=(20, 15), cols_per_row=3):
         """
         Plots distribution plots for specified categorical columns of a DataFrame.
 
